@@ -34,13 +34,16 @@ export default function ScreenSecond() {
           We will help you to grow your business using online server
         </Text>
 
-        <View style={styles.buttonContainer}>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>LOGIN</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>SIGN UP</Text>
-          </TouchableOpacity>
+        <View>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity style={styles.button}>
+              <Text style={styles.buttonText}>LOGIN</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.button}>
+              <Text style={styles.buttonText}>SIGN UP</Text>
+            </TouchableOpacity>
+          </View>
+          <Text style={styles.texth2}>HOW WE WORK ?</Text>
         </View>
 
         <StatusBar style="auto" />
@@ -81,13 +84,20 @@ const styles = StyleSheet.create({
     // width: 200,
     textAlign: "center",
   },
+  texth2: {
+    fontSize: 22,
+    fontWeight: "bold",
+    // width: 200,
+    marginTop: 30,
+    textAlign: "center",
+  },
   button: {
     // padding: 10,
     paddingHorizontal: 20,
     paddingVertical: 15,
 
     backgroundColor: "#E9B824",
-    borderRadius: 10,
+    // borderRadius: 10,
     marginHorizontal: 50,
     alignItems: "center",
     justifyContent: "center",
