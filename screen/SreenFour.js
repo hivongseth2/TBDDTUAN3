@@ -55,8 +55,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-around",
     backgroundColor: "transparent",
-    marginBottom: 120,
-    marginTop: 120,
   },
   tinyLogo: {
     height: 200,
